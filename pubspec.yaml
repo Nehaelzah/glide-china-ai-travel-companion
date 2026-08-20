@@ -1,0 +1,45 @@
+name: glide_china
+description: "Glide China — a smart travel companion for tourists visiting China."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  google_fonts: ^6.2.1
+  cupertino_icons: ^1.0.8
+  dio: ^5.7.0
+  url_launcher: ^6.3.1
+  image_picker: ^1.1.2
+  flutter_map: ^7.0.2
+  latlong2: ^0.9.1
+  permission_handler: ^11.3.1
+  flutter_tts: ^4.2.0
+  speech_to_text: ^7.0.0
+  geolocator: ^13.0.1
+  path_provider: ^2.1.0
+
+dev_dependencies:
+  flutter_lints: ^4.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/glide_logo.png
+    - assets/images/weather/
+    - assets/images/apps/
+    - assets/images/mood/
+    - assets/videos/
+  fonts:
+    - family: AlimamaDongFangDaKai
+      fonts:
+        - asset: assets/fonts/AlimamaDongFangDaKai.ttf
+    - family: AlimamaLingDongTi
+      fonts:
+        - asset: assets/fonts/AlimamaLingDongTi.ttf

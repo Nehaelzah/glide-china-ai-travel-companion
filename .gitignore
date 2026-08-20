@@ -1,0 +1,76 @@
+# Miscellaneous
+*.class
+*.log
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Python / Backend
+venv/
+__pycache__/
+*.pyc
+*.db
+.env
+
+# Other generated files
+*.bat
+nuget.exe
+nuget.pdb
+nuget_wrapper/
+start_all.bat
+start_backend.bat
+
+# Glide China root files
+glide_china.db
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Local IDE, generated platform, backup, and deployment artifacts
+.flutter-plugins
+.metadata
+android_from_gitee_backup_*/
+*.keystore
+*.jks
+*.pem
+*.p12
+*.mobileprovision
+backend/.env
+backend/*.db
+backend/seed.py
+backend/**/__pycache__/
